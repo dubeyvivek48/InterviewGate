@@ -31,8 +31,8 @@ export default function ExamPage() {
     })),
   );
   const [examFinished, setExamFinished] = useState(false);
-  const [userName, setUserName] = useState("vivek");
-  const [userEmail, setUserEmail] = useState("dubey@gmail.com");
+  const [userName, setUserName] = useState("");
+  const [userEmail, setUserEmail] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [result, setResult] = useState<any>(null);
   const [warningShown, setWarningShown] = useState(false);
